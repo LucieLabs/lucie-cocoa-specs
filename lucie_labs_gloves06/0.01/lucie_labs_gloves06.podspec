@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "lucie_labs_gloves06"
   s.version = "0.01"
-  s.summary = "iOS SDK for Lucie Labs gloves06 interaction"
+  s.summary = "iOS SDK for Lucie Labs XRAY platform interaction"
   s.homepage = "https://lucielabs.com"
   s.authors = "Lucie Labs"
   s.platform = :ios, "9.0"
