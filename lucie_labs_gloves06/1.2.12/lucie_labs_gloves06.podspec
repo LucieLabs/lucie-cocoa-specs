@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "Commercial", :text => "Copyright Lucie Labs. All Rights Reserved." }
   s.vendored_frameworks = 'Frameworks/gloves06.framework'
   s.resource_bundles = { 'Firmware' => ['Assets/Firmware.bundle/*.{bin,json}'] }
-  s.dependency "Bugsnag"
-  s.dependency "SwiftyBeaver"
+  s.dependency "Bugsnag", '~> 6.1.3'
+  s.dependency "SwiftyBeaver", '~> 1.9.1'
   s.swift_version = "5"
 end
