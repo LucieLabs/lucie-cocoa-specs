@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors = "Lucie Labs"
   s.platform = :ios
   s.ios.deployment_target = '11.0'
-  s.swift_version = ['5.0', '5.2']
+  s.swift_version = ['5.0', '5.2', '5.3']
   s.source = { :http => "https://specs.lucielabs.com/#{s.name}/#{s.version}/#{s.name}.zip" }
   s.license = { :type => "Commercial", :text => "Copyright Lucie Labs. All Rights Reserved." }
   s.vendored_frameworks = 'Frameworks/gloves06.framework'
